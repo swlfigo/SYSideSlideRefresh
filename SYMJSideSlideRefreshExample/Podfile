@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/swlfigo/SYDevSpecs.git'
+use_frameworks!
+
+
+target 'SYMJSideSlideRefreshExample' do
+    pod 'SYSideSlideRefresh'
+end
+
