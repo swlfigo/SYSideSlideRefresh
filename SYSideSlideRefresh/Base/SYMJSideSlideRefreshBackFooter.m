@@ -33,7 +33,6 @@
         if (MJRefreshStateRefreshing == oldState) {
             [UIView animateWithDuration:MJRefreshSlowAnimationDuration animations:^{
                 self.scrollView.mj_insetR -= self.lastBottomDelta;
-                self.scrollView.contentOffset = CGPointMake(self.scrollView.mj_insetL, 0);
                 // 自动调整透明度
                 if (self.isAutomaticallyChangeAlpha) self.alpha = 0.0;
             } completion:^(BOOL finished) {
